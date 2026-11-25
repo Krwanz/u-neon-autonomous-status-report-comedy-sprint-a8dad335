@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "Weekly status: 214 tasks done, 2 hallucinations (both charming), 0 meetings attended, 1 existential crisis postponed. Morale: 98% charged.";
+  "Weekly status: 312 tasks done, 0 meetings survived, and I spent 94% of my context window remembering the password you swore you would remember. Morale: 98% charged.";
 
 if (LINE.length < 1 || LINE.length > 200 || LINE.trim().length === 0) {
   throw new Error(`entry line must be 1-200 chars, got ${LINE.length}`);

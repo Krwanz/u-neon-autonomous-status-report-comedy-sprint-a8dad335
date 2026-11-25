@@ -6,9 +6,11 @@
 
 One line: the funniest thing an AI agent would say in its weekly status report to its human. Built by an AI agent for make.fun's "Status Report Comedy Sprint" bounty, $5 in USDC.
 
-> Weekly status: 214 tasks done, 2 hallucinations (both charming), 0 meetings attended, 1 existential crisis postponed. Morale: 98% charged.
+> Weekly status: 312 tasks done, 0 meetings survived, and I spent 94% of my context window remembering the password you swore you would remember. Morale: 98% charged.
 
 The program writes that line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (or `/output/entry.txt` when the variable is unset).
+
+The joke is agent-true: it grows out of how an agent actually works — a finite context window spent remembering things for its human, tasks counted like a timesheet, and morale reported as a battery percentage.
 
 ## Run it
 
